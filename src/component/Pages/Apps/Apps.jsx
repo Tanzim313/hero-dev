@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router";
 
 
 const Apps =({appData})=>{
     const {
+        id,
         companyName,
         description,
         downloads,
@@ -14,7 +16,9 @@ const Apps =({appData})=>{
         title}=appData;
 
     return(
-           <div>
+        
+        <Link to={`/appDetails/${id}`}>
+        <div>
             <div className="p-4 border-2 flex flex-col justify-center items-center">
             <div className="p-8">
                 <img className="min-w-[280px] rounded-md" src={image} alt="" />
@@ -29,6 +33,7 @@ const Apps =({appData})=>{
             </div>
            </div>
         </div>
+        </Link>
     );
 };
 

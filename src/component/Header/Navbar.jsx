@@ -5,7 +5,7 @@ import { Link } from "react-router";
 const Navbar =()=>{
     const links = <>
 
-                    <Link to='/home' ><li className="font-bold">Home</li></Link>
+                    <Link to='/' ><li className="font-bold">Home</li></Link>
                     <Link to='/allapps'><li className="font-bold">Apps</li></Link>
                     <Link to='/installation'><li className="font-bold">Installation</li></Link>
             

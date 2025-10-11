@@ -4,6 +4,8 @@ import Apps from "../Apps/Apps";
 
 const Tapps=({data})=>{
 
+    
+
     return(
         <div>
 

@@ -8,6 +8,7 @@ const Home =()=>{
     const data = useLoaderData();
     console.log(data);
 
+    
 
     return(
             <div>
@@ -16,17 +17,17 @@ const Home =()=>{
                     <p className="text-center mb-4 mt-4 ">At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
 
                     <div className="space-x-4">
-                        <button className="btn btn-primary">Google Play</button>
-                        <button className="btn btn-primary">App Store</button>
+                        <button className="btn btn-primary"><a href="https://play.google.com/store"  target="_blank">Google Play</a></button>
+                        <button className="btn btn-primary"><a href="https://apps.apple.com" target="_blank">App Store</a></button>
                     </div>
                 </div>
 
                 <div className="p-10">
-                    <img className="" src={hero} alt="" />
+                <img className="" src={hero} alt="" />
                 </div>
 
                 <div className=" p-4 -mt-10 bg-gradient-to-l from-[#632EE3] to-[#9F62F2] ">
-                    <div className="text-center font-bold text-3xl mt-10">
+                <div className="text-center font-bold text-3xl mt-10">
                         <h1>Trusted by Millions, Built for You</h1>
                     </div>
                     
@@ -61,12 +62,14 @@ const Home =()=>{
                         </p>
                     </div>
                     <div>
-                        <Tapps data={data} ></Tapps>
+                        <Tapps  data={data.slice(0,8)} ></Tapps>
                     </div>
 
                     <div className="flex justify-center items-center">
-                       
+                       <Link to="/allApps">
                             <button  className="btn btn-primary mt-10 mb-10">Show All</button>
+                       </Link>
+                            
                        
                     </div>
                 </div>
