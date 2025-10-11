@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80",
+    "title": "Budget Buddy",
+    "companyName": "FinTrack",
+    "id": 1,
+    "description": "Keep track of your expenses and savings.",
+    "size": 30,
+    "reviews": 950,
+    "ratingAvg": 4.2,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 310 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80",
+    "title": "Focus Timer",
+    "companyName": "ProductiveApps",
+    "id": 2,
+    "description": "Pomodoro timer to boost your focus.",
+    "size": 12,
+    "reviews": 1120,
+    "ratingAvg": 4.7,
+    "downloads": 72000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 605 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80",
+    "title": "Book Tracker",
+    "companyName": "ReadMore",
+    "id": 3,
+    "description": "Track your reading progress easily.",
+    "size": 14,
+    "reviews": 830,
+    "ratingAvg": 4.3,
+    "downloads": 55000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 325 }
+    ]
+  },
+  {
+    "image": "https://blog.myfitnesspal.com/wp-content/uploads/2025/04/myfitnesspal-meal-planner-announcement-1024x576.jpg",
+    "title": "Meal Planner",
+    "companyName": "HealthFoods",
+    "id": 4,
+    "description": "Plan your meals and track calories.",
+    "size": 20,
+    "reviews": 1050,
+    "ratingAvg": 4.6,
+    "downloads": 67000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 465 }
+    ]
+  },
+  {
+    "image": "https://images.ui8.net/uploads/screenshot_1647856182644.jpg",
+    "title": "Workout Coach",
+    "companyName": "FitPro",
+    "id": 5,
+    "description": "Personalized workout routines for you.",
+    "size": 38,
+    "reviews": 1850,
+    "ratingAvg": 4.8,
+    "downloads": 115000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 740 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
+    "title": "Sleep Tracker",
+    "companyName": "DreamTech",
+    "id": 6,
+    "description": "Monitor and improve your sleep quality.",
+    "size": 22,
+    "reviews": 900,
+    "ratingAvg": 4.5,
+    "downloads": 58000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 385 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=400&q=80",
+    "title": "Language Flashcards",
+    "companyName": "EduSmart",
+    "id": 7,
+    "description": "Learn languages fast with flashcards.",
+    "size": 18,
+    "reviews": 720,
+    "ratingAvg": 4.4,
+    "downloads": 48000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 305 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=400&q=80",
+    "title": "Expense Manager",
+    "companyName": "MoneyWise",
+    "id": 8,
+    "description": "Easily track your expenses and budgets.",
+    "size": 28,
+    "reviews": 1230,
+    "ratingAvg": 4.3,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 485 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=400&q=80",
+    "title": "Travel Guide",
+    "companyName": "ExploreNow",
+    "id": 9,
+    "description": "Discover the best places and tips.",
+    "size": 33,
+    "reviews": 680,
+    "ratingAvg": 4.7,
+    "downloads": 46000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 405 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&w=400&q=80",
+    "title": "Mind Map",
+    "companyName": "BrainWave",
+    "id": 10,
+    "description": "Create and organize your ideas visually.",
+    "size": 40,
+    "reviews": 1100,
+    "ratingAvg": 4.6,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 510 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80",
+    "title": "Daily Journal",
+    "companyName": "WriteIt",
+    "id": 11,
+    "description": "Keep a daily record of your thoughts.",
+    "size": 15,
+    "reviews": 750,
+    "ratingAvg": 4.5,
+    "downloads": 52000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80",
+    "title": "Recipe Book",
+    "companyName": "CookMaster",
+    "id": 12,
+    "description": "Find and save your favorite recipes.",
+    "size": 25,
+    "reviews": 900,
+    "ratingAvg": 4.4,
+    "downloads": 62000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 375 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=400&q=80",
+    "title": "Meditation App",
+    "companyName": "CalmSpace",
+    "id": 13,
+    "description": "Guided meditation to reduce stress.",
+    "size": 18,
+    "reviews": 980,
+    "ratingAvg": 4.7,
+    "downloads": 68000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 445 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80",
+    "title": "Weather Now",
+    "companyName": "SkyWatch",
+    "id": 14,
+    "description": "Real-time weather updates.",
+    "size": 10,
+    "reviews": 850,
+    "ratingAvg": 4.3,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 335 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=400&q=80",
+    "title": "Event Planner",
+    "companyName": "PlanIt",
+    "id": 15,
+    "description": "Organize your events with ease.",
+    "size": 22,
+    "reviews": 950,
+    "ratingAvg": 4.6,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80",
+    "title": "Habit Tracker",
+    "companyName": "BetterYou",
+    "id": 16,
+    "description": "Build and track new habits.",
+    "size": 14,
+    "reviews": 780,
+    "ratingAvg": 4.5,
+    "downloads": 48000,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80",
+    "title": "Language Tutor",
+    "companyName": "LinguaPro",
+    "id": 17,
+    "description": "Learn new languages interactively.",
+    "size": 20,
+    "reviews": 870,
+    "ratingAvg": 4.4,
+    "downloads": 53000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 315 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=400&q=80",
+    "title": "Photo Editor",
+    "companyName": "SnapFix",
+    "id": 18,
+    "description": "Edit your photos with professional tools.",
+    "size": 35,
+    "reviews": 1300,
+    "ratingAvg": 4.7,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 505 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80",
+    "title": "News Daily",
+    "companyName": "QuickNews",
+    "id": 19,
+    "description": "Stay updated with the latest news.",
+    "size": 16,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": 65000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=400&q=80",
+    "title": "Movie Guide",
+    "companyName": "FilmFan",
+    "id": 20,
+    "description": "Find and rate movies.",
+    "size": 22,
+    "reviews": 950,
+    "ratingAvg": 4.5,
+    "downloads": 54000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 475 }
+    ]
+  }
+]
