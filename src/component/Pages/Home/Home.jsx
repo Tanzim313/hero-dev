@@ -1,7 +1,7 @@
 import React from "react";
 import hero from '../../../assets/hero.png';
 import Tapps from "../trending/Tapps";
-import { Link, useLoaderData } from "react-router";
+import { data, Link, useLoaderData } from "react-router";
 
 const Home =()=>{
     
@@ -28,7 +28,7 @@ const Home =()=>{
 
                 <div className=" p-4 -mt-10 bg-gradient-to-l from-[#632EE3] to-[#9F62F2] ">
                 <div className="text-center font-bold text-3xl mt-10">
-                        <h1>Trusted by Millions, Built for You</h1>
+                    <h1>Trusted by Millions, Built for You</h1>
                     </div>
                     
                     <div className=" flex flex-row  justify-center gap-8 mt-10 mb-10 text-center">
@@ -63,6 +63,9 @@ const Home =()=>{
                     </div>
                     <div>
                         <Tapps  data={data.slice(0,8)} ></Tapps>
+
+                        
+
                     </div>
 
                     <div className="flex justify-center items-center">

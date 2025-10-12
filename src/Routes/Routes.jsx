@@ -6,6 +6,7 @@ import allApps from "../component/Pages/allApps/allApps";
 import Installation from "../component/Pages/instalation/Installation";
 import appDetails from "../component/Pages/appDetails/appDetails";
 import ErrorPage from "../component/ErrorPages/ErrorPage";
+//import AppList from "../component/app/AppList";
 
 
 
@@ -35,7 +36,15 @@ export const router = createBrowserRouter([
             Component:allApps
         },{
             path:"/installation",
-            Component:Installation
+            Component:Installation,
+
+            loader: async () => {
+              const res = await fetch('/data.json');
+              const data = await res.json();
+              return data; 
+        }
+
+            
         },{
             path:'/appDetails/:id',
             loader: async () => {

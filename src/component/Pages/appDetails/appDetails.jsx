@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { toast, Toaster } from "react-hot-toast";
 import { useLoaderData, useParams } from "react-router";
+import { addToStoredDB, getStoredApp } from "../../../utility/addToDB";
 
 const appDetails =()=>{
 
@@ -29,9 +30,19 @@ const appDetails =()=>{
 
     const [installed,setInstalled]=useState(false);
 
+    useEffect(()=>{
+            const installedApps = getStoredApp();
+
+            if(installedApps.includes(appId)){
+                setInstalled(true);
+            }
+    },[appId]);
+    
     const handleInstall =()=>{
         setInstalled(true);
         toast.success('Successfully Installed!')
+
+        addToStoredDB(appId);
        
     }
 
@@ -54,7 +65,7 @@ const appDetails =()=>{
                     </div>
 
                     <button 
-                    onClick={handleInstall}
+                    onClick={()=>handleInstall(id)}
                     disabled={installed}
                     className="btn btn-primary">
                       {installed ? "Installed" : `Install Now (${size} MB)`}
