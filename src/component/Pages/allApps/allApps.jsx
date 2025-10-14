@@ -1,6 +1,8 @@
 import React, { Suspense, useState } from "react";
 import { useLoaderData } from "react-router";
 import Apps from "../Apps/Apps";
+import { Search } from 'lucide-react';
+
 
 
 const allApps =()=>{
@@ -20,22 +22,42 @@ const allApps =()=>{
     
         <div>
 
-            <div>
-                <h2>Total Apps:{filteredApps.length}</h2>
+            <div className="flex justify-between p-2">
+                <h2 className="text-2xl">({filteredApps.length})Apps Found</h2>
 
-                <input 
-                    type="text"
-                    placeholder="Search apps..."
-                    value={searchTerm}
+                <div className="flex p-2">
 
-                    onChange={e => setSearchTerm(e.target.value)}
 
+                <label className="input">
+  <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <g
+      strokeLinejoin="round"
+      strokeLinecap="round"
+      strokeWidth="2.5"
+      fill="none"
+      stroke="currentColor"
+    >
+      <circle cx="11" cy="11" r="8"></circle>
+      <path d="m21 21-4.3-4.3"></path>
+    </g>
+  </svg>
+  <input type="search" 
+  required placeholder="Search"
+
+  value={searchTerm}
+
+  onChange={e => setSearchTerm(e.target.value)}
+  
+  />
+</label>
                 
-                />
+                
+                </div>
+
             </div>
 
              <Suspense fallback={<div>Loading Apps...</div>}>
-                <div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                     {
                         filteredApps.length > 0 ?(
                             filteredApps.map((appData)=>(

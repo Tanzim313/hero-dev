@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { toast, Toaster } from "react-hot-toast";
 import { useLoaderData, useParams } from "react-router";
 import { addToStoredDB, getStoredApp } from "../../../utility/addToDB";
+import Chart from "../Chart/Chart";
+import { Download,Star,ThumbsUp  } from 'lucide-react';
 
 const appDetails =()=>{
 
@@ -48,41 +50,44 @@ const appDetails =()=>{
 
     return(
         <div>
+        <div className="p-2">
             <div><Toaster/></div>
-            <div className="flex flex-row justify-between items-center p-4 border-2 ">
-                <div>
+            <div className="max-w-[1000px] mx-auto flex flex-col sm:flex-row justify-around items-center  p-4 border-2 gap-4">
+                <div className="p-4">
                     <img src={image} alt="" />
                 </div>
 
-                <div className="flex flex-col items-center">
-                    <h1>{title}</h1>
-                    <p>Developed by:{companyName}</p>
+                <div className="flex flex-col items-center ">
+                    <h1 className="text-2xl md:text-3xl font-bold">{title}</h1>
+                    <p className="mb-6 ">Developed by:<span className="text-[#9F62F2] font-bold">{companyName}</span></p>
 
-                    <div className="flex flex-row gap-4">
-                        <li>{downloads}</li>
-                        <li>{ratingAvg}</li>
-                        <li>{reviews}</li>
+                    <div className="flex flex-row gap-8 list-none mb-5">
+                        <li className=""><Download />{downloads}</li>
+                        <li><Star />{ratingAvg}</li>
+                        <li><ThumbsUp />{reviews}</li>
                     </div>
 
                     <button 
                     onClick={()=>handleInstall(id)}
                     disabled={installed}
-                    className="btn btn-primary">
+                    className="btn bg-[#00D390]">
                       {installed ? "Installed" : `Install Now (${size} MB)`}
                     </button>
 
                 </div>
             </div>
 
-            <div>
-
+            <div className="">
+                <Chart></Chart>
             </div>
 
-            <div>
+            <div className="mt-10 text-center mb-10">
                 <p>{description}</p>
             </div>
             
         </div>
+
+    </div>
     );
 };
 

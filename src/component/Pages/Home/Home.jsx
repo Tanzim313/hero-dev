@@ -23,7 +23,7 @@ const Home =()=>{
                 </div>
 
                 <div className="p-10">
-                <img className="" src={hero} alt="" />
+                    <img  className="mx-auto" src={hero} alt="" />
                 </div>
 
                 <div className=" p-4 -mt-10 bg-gradient-to-l from-[#632EE3] to-[#9F62F2] ">
@@ -61,19 +61,15 @@ const Home =()=>{
                             Explore All Trending Apps on the Market developed by us
                         </p>
                     </div>
-                    <div>
+                    <div className="">
                         <Tapps  data={data.slice(0,8)} ></Tapps>
-
                         
-
                     </div>
 
                     <div className="flex justify-center items-center">
                        <Link to="/allApps">
                             <button  className="btn btn-primary mt-10 mb-10">Show All</button>
-                       </Link>
-                            
-                       
+                       </Link>           
                     </div>
                 </div>
 
