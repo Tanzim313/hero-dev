@@ -2,6 +2,9 @@ import React from "react";
 import hero from '../../../assets/hero.png';
 import Tapps from "../trending/Tapps";
 import { data, Link, useLoaderData } from "react-router";
+import { FaGooglePlay } from "react-icons/fa6";
+import { FaAppStoreIos } from "react-icons/fa";
+import google from "../../../assets/google.png"
 
 const Home =()=>{
     
@@ -12,14 +15,18 @@ const Home =()=>{
 
     return(
             <div>
+            
                 <div className="flex flex-col justify-center items-center p-4">
                     <h1 className="text-5xl text-center">We Build<br/><span className="text-6xl mt-1 font-bold bg-gradient-to-b from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text"> Productive </span> Apps</h1>
                     <p className="text-center mb-4 mt-4 ">At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
 
                     <div className="space-x-4">
-                        <button className="btn btn-primary"><a href="https://play.google.com/store"  target="_blank">Google Play</a></button>
-                        <button className="btn btn-primary"><a href="https://apps.apple.com" target="_blank">App Store</a></button>
+                        <button className="btn bg-white "><a href="https://play.google.com/store"  target="_blank" className="flex items-center gap-1 text-black">
+                        <img  className="w-[20px]" src={google} alt="" />
+                         Google Play </a></button>
+                        <button className="btn bg-white "><a href="https://apps.apple.com" target="_blank" className="flex items-center gap-1 text-black"> <FaAppStoreIos /> App Store</a></button>
                     </div>
+
                 </div>
 
                 <div className="p-10">

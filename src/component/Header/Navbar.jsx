@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import { Github } from 'lucide-react';
 
 
 const Navbar =()=>{
@@ -28,7 +29,7 @@ const Navbar =()=>{
     </div>
   </div>
   <div className="navbar-center sm:navbar-start ">
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-xl">HERO.IO</a>
   </div>
   <div className="navbar-center hidden sm:flex ">
     <ul className="menu menu-horizontal px-1 space-x-2 ">
@@ -39,7 +40,7 @@ const Navbar =()=>{
   <div className="navbar-end">
     <button 
     onClick={()=>window.open('https://github.com/Tanzim313','_blank')} 
-    className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] rounded-md min-w-[100px] h-[40px] text-center">Contribute</button>
+    className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] rounded-md min-w-[100px] h-[40px] text-center flex items-center p-2"> <Github /> Contribute </button>
   </div>
 </div>
         </div>
