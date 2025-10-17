@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/error-404.png"
+import found from "../../assets/App-Error.png"
 import { Link } from "react-router";
 import Navbar from "../Header/Navbar";
 import Footer from "../Footer/Footer";
@@ -9,25 +9,25 @@ const ErrorPage=()=>{
 
     return(
         <>
-        <Navbar></Navbar>
+       
 
-        <div className="mt-20 flex flex-col justify-center items-center text-center p-4">
+        <div className="mt-20 mb-20 flex flex-col justify-center items-center text-center p-4">
 
-            <img src={img} alt="" />
+            <img src={found} alt="" />
             
             <div className="mt-20">
-                <h1 className="text-4xl sm:text-5xl mb-2">Oops,page not found!</h1>
-                <p className="text-[#627382] mb-2">The page you are looking for is not available.</p>
+                <h1 className="text-4xl sm:text-5xl mb-2">Oops!!APP NOT FOUND!</h1>
+                <p className="text-[#627382] mb-2">The App you are requesting is not found on our system.  please try another apps</p>
                 
                 <Link to="/">
                     <button className="w-25 h-10 rounded-md bg-gradient-to-b from-[#632EE3] to-[#9F62F2]">Go Back!</button>
                 </Link>
                 
             </div>
-
+            
         </div>
 
-        <Footer></Footer>
+       
     </>
     );
 };

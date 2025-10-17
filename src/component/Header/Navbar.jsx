@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 import { Github } from 'lucide-react';
+import hero from "../../assets/logo.png";
 
 
 const Navbar =()=>{
@@ -28,9 +29,11 @@ const Navbar =()=>{
       </ul>
     </div>
   </div>
-  <div className="navbar-center sm:navbar-start ">
+  <div className="navbar-center sm:navbar-start flex flex-row ">
+    <img className="w-8 h-8" src={hero} alt="" />
     <a className="btn btn-ghost text-xl">HERO.IO</a>
   </div>
+  
   <div className="navbar-center hidden sm:flex ">
     <ul className="menu menu-horizontal px-1 space-x-2 ">
         {links}

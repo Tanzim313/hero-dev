@@ -6,6 +6,7 @@ import allApps from "../component/Pages/allApps/allApps";
 import Installation from "../component/Pages/instalation/Installation";
 import appDetails from "../component/Pages/appDetails/appDetails";
 import ErrorPage from "../component/ErrorPages/ErrorPage";
+import ErrorApp from "../component/ErrorPages/ErrorApp"
 //import AppList from "../component/app/AppList";
 
 
@@ -46,14 +47,15 @@ export const router = createBrowserRouter([
 
             
         },{
-            path:'/appDetails/:id',
-            loader: async () => {
+          path:'/appDetails/:id',
+          loader: async () => {
           const res = await fetch('/data.json');
           const data = await res.json();
           return data; 
         },
-         Component:appDetails
-        }
+         Component:appDetails,
+         errorElement:<ErrorApp/>,
+      }
     ]
   }
 ]);

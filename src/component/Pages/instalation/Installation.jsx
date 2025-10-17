@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React,{ useEffect, useState } from "react";
 import AppList from "../../app/AppList";
 import { getStoredApp, removeStoredDB } from "../../../utility/addToDB";
 import { useLoaderData } from "react-router";
@@ -31,7 +31,7 @@ const Installation =()=>{
     };
 
     return(
-        <div>
+        <div className="p-10">
             <div><Toaster/></div>
             {
                 installApp.map(b=><AppList key={b.id} singleApp={b} handleUninstall={handleUninstall} ></AppList>)

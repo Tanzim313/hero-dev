@@ -11,18 +11,20 @@ const AppList =({singleApp,handleUninstall})=>{
 
     
     return(
-        <div className="flex justify-between">
-            <div className="flex flex-row justify-between gap-10 ">
-                <img src={image} alt="" />
+        <div className="p-4 flex flex-col md:flex-row  border-2 mt-8">
+            <div className="flex flex-col md:flex-row justify-between gap-10 ">
+            
+                 <img className="rounded-md" src={image} alt="" />
+               
 
-                <div>
+                <div className="mt-6 mb-6 p-2 flex  flex-col items-center">
                     <h1 className="text-3xl">Forest:{title}</h1>
-                    <div className="mt-5 list-none flex flex-row justify-between items-center text-xl gap-12">
-                        <li className="text-[#00D390] w-[20px]">
+                    <div className="mt-5 list-none flex flex-row justify-between items-center text-xl gap-8">
+                        <li className="text-[#00D390] w-[20px]  flex flex-col items-center">
                             <img src={down} alt="" />
                             {downloads}
                         </li>
-                        <li className="text-[#FF8811]">
+                        <li className="text-[#FF8811] flex flex-col items-center">
                            <img className="w-[20px]" src={rat} alt="" />
                             {ratingAvg}
                         </li>
@@ -30,7 +32,10 @@ const AppList =({singleApp,handleUninstall})=>{
                     </div>
                 </div>
             </div>
-            <button onClick={()=>handleUninstall(id)} className="btn  bg-[#00D390]">Uninstall</button>
+
+           
+             <button onClick={()=>handleUninstall(id)} className="btn  bg-[#00D390]  md:mt-50 md:mr-4">Uninstall</button>
+           
         </div>
     )
 }
