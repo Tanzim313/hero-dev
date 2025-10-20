@@ -41,8 +41,9 @@ const appDetails =()=>{
     },[appId]);
     
     const handleInstall =()=>{
+         
         setInstalled(true);
-        toast.success('Successfully Installed!')
+        toast.success(`Successfully Installed!`)
 
         addToStoredDB(appId);
        

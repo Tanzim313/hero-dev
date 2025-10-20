@@ -21,13 +21,14 @@ const Installation =()=>{
     },[data]);
 
     const handleUninstall =(id)=>{
-
+        
+        const app = installApp.find(app=>app.id === id);
         removeStoredDB(id);
 
         const updatedApps = installApp.filter(app=>app.id!==id);
         setInstallApp(updatedApps);
 
-        toast.success('Successfully  UnInstalled!')
+        toast.success(`Successfully ${app.title} UnInstalled!`)
     };
 
 
