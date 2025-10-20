@@ -24,7 +24,7 @@ const Chart = () => {
   console.log(clickedData);
   return (
     <div>
-      <div className="p-4 mx-auto" style={{ width: "70%", height: 300 }}>
+      <div className="p-4 mx-auto" style={{ width: "90%", height: 400 }}>
         {clickedData ? (
           <>
             <h2 className="text-xl font-bold mb-5 mt-2 mx-auto px-4 text-center">
@@ -33,18 +33,19 @@ const Chart = () => {
             <ResponsiveContainer>
               <BarChart
                 data={clickedData.ratings}
+                layout="vertical"
                 margin={{ top: 20, right: 20, left: 20, bottom: 10 }}
               >
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
+                <XAxis type="number" />
+                <YAxis type="category" dataKey="name"/>
                 <Tooltip />
                 <Bar dataKey="count" fill="#FF8811" />
               </BarChart>
             </ResponsiveContainer>
           </>
         ) : (
-          <p>Loading..........</p>
+          <p>Loading.....</p>
         )}
       </div>
     </div>

@@ -4,7 +4,8 @@ import Tapps from "../trending/Tapps";
 import { data, Link, useLoaderData } from "react-router";
 import { FaGooglePlay } from "react-icons/fa6";
 import { FaAppStoreIos } from "react-icons/fa";
-import google from "../../../assets/google.png"
+import google from "../../../assets/google.png";
+import app from "../../../assets/app.png";
 
 const Home =()=>{
     
@@ -24,7 +25,9 @@ const Home =()=>{
                         <button className="btn bg-white "><a href="https://play.google.com/store"  target="_blank" className="flex items-center gap-1 text-black">
                         <img  className="w-[20px]" src={google} alt="" />
                          Google Play </a></button>
-                        <button className="btn bg-white "><a href="https://apps.apple.com" target="_blank" className="flex items-center gap-1 text-black"> <FaAppStoreIos /> App Store</a></button>
+                        <button className="btn bg-white "><a href="https://apps.apple.com" target="_blank" className="flex items-center gap-1 text-black">
+                        <img className="w-[20px]" src={app} alt="" />
+                        App Store</a></button>
                     </div>
 
                 </div>
@@ -46,15 +49,15 @@ const Home =()=>{
                         </div>
 
                         <div>
-                        <p>Total Downloads</p>
-                        <h1 className="text-2xl font-bold">29.6M</h1>
-                        <p>21% more than last month</p>
+                        <p>Total Reviews</p>
+                        <h1 className="text-2xl font-bold">906k</h1>
+                        <p>46% more than last month</p>
                     </div>
 
                     <div>
-                        <p>Total Downloads</p>
-                        <h1 className="text-2xl font-bold">29.6M</h1>
-                        <p>21% more than last month</p>
+                        <p>Total Apps</p>
+                        <h1 className="text-2xl font-bold">132+</h1>
+                        <p className="">31% more than last month</p>
                     </div>
 
                     </div>

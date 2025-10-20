@@ -81,8 +81,8 @@ const appDetails =()=>{
                 <Chart></Chart>
             </div>
 
-            <div className="mt-10 text-center mb-10">
-                <p>{description}</p>
+            <div className="mt-20 text-center mb-20 ">
+                <p className="p-8 text-left">{description}</p>
             </div>
             
         </div>

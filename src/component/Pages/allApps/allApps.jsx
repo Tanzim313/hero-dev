@@ -2,6 +2,7 @@ import React, { Suspense, useState } from "react";
 import { useLoaderData } from "react-router";
 import Apps from "../Apps/Apps";
 import { Search } from 'lucide-react';
+import spin from "../../../assets/logo.png";
 
 
 
@@ -20,7 +21,13 @@ const allApps =()=>{
     return(
 
     
-        <div>
+        <div className="mb-10 mt-10">
+
+            <div className="text-center mt-10 mb-20">
+                <h1 className="text-3xl">Our All Applications</h1>
+                <p className="text-[#627382]">Explore All Apps on the Market developed by us. We code for Millions</p>
+
+            </div>
 
             <div className="flex justify-between p-2">
                 <h2 className="text-2xl">({filteredApps.length})Apps Found</h2>
@@ -56,7 +63,7 @@ const allApps =()=>{
 
             </div>
 
-             <Suspense fallback={<div>Loading Apps...</div>}>
+             <Suspense fallback={<div>L <span><img src={spin} alt="" /></span>ading Apps...</div>}>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                     {
                         filteredApps.length > 0 ?(
@@ -64,7 +71,7 @@ const allApps =()=>{
                             <Apps key={appData.id}  appData={appData}></Apps>
                         ))
                         ):(
-                            <p>
+                            <p className="mt-20 mb-20 text-4xl">
                                 No App Found
                             </p>
                         )
