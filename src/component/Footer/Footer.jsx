@@ -8,7 +8,7 @@ const Footer =()=>{
 
     return(
             <div className="bg-[#001931]">
-              <div className="flex justify-between items-center p-4 ">
+              <div className="flex justify-between items-center p-8">
 
               <div className="flex flex-row items-center text-center ">
                 <img className="w-8" src={logo} alt="" />
