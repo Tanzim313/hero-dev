@@ -19,4 +19,8 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 deploy link1:https://gentle-lollipop-dee95e.netlify.app/
-deploy link2:https://dev-hero-03.pages.dev/
+
+deploy link2:https://dev-04.pages.dev/
+
+
+
